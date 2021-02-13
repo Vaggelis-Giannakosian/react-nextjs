@@ -1,5 +1,4 @@
 import React from 'react'
-import {addFunction} from "../services/utils";
 import Link from "next/link";
 import Image from "../components/Image"
 const App: React.FC = () => {
@@ -8,8 +7,6 @@ const App: React.FC = () => {
         <div>
             Hello World!
             <p>
-                {addFunction(1,2)}
-
                 <a href="./contact">Contact</a>
                 <p>
                     <Link href="/contact">
