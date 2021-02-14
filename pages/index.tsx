@@ -10,7 +10,12 @@ const App: React.FC = () => {
                 <a href="./contact">Contact</a>
                 <p>
                     <Link href="/contact">
-                        <a>Contact</a>
+                        <button>Contact</button>
+                    </Link>
+                </p>
+                <p>
+                    <Link href="/robots">
+                        <button>Robots</button>
                     </Link>
                 </p>
             </p>
